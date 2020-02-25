@@ -1,0 +1,15 @@
+<ul>
+    {{#each data}}
+    <li>{{@key}} : {{this}}</li>
+    {{/each}}
+</ul>
+
+<form action="/" method="POST">
+    <label for="logInPage">Username: </label>
+    <input type="text" name="UserName">
+    <br>
+    <label for="logInPage"> Password:</label>: </label>
+    <input type="text" name="Password">
+    <br>
+    <input type="submit" value="send">
+</form>
